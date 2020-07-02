@@ -18,7 +18,10 @@ import Navbar from "./Navbar";
 import portfolio from "../images/portfolio.png";
 import motionDetector from "../images/motion.png";
 import faceDetector from "../images/face-detector.png";
-import edgeDetector from "../images/edge-detector.png"
+import edgeDetector from "../images/edge-detector.png";
+import flaskDlApp from "../images/recogniser.png";
+import lineFollower from "../images/lineFollower.png";
+import tetris from "../images/tetris.jpg";
 
 import GitHubIcon from '@material-ui/icons/GitHub';
 import PlayCircleFilledIcon from '@material-ui/icons/PlayCircleFilled';
@@ -163,21 +166,22 @@ const Projects = () => {
                     <CardActionArea>
                         <CardMedia
                             component="img"
-                            alt="motion-detector"
+                            alt="HandWrittenDigitRecogniser"
                             height="140"
-                            image={motionDetector} />
+                            image={flaskDlApp} />
                             <CardContent>
                                 <Typography gutterBottom variant="h5">
-                                    Motion_Detector_openCV
+                                    HandWrittenDigitRecogniser app
                                 </Typography>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    This project of detecting motion is done with openCV. 
+                                    This project of detecting handwritten digits is done with deep learning and flask. Deep learning was used to train 
+                                    on MNIST dataset and Flask was used to get the api to render on browser.
                                 </Typography>
                             </CardContent>
                             </CardActionArea>
                             <CardActions>
                             <GitHubIcon />
-                                <Link href="https://github.com/piyush-cosmo/motion_detector_using_openCV">
+                                <Link href="https://github.com/piyush-cosmo/DL_FLASK_WEB_APP">
                                     Github
                                 </Link>
                                 <Button size="small" color="primary">
@@ -192,21 +196,21 @@ const Projects = () => {
                     <CardActionArea>
                         <CardMedia
                             component="img"
-                            alt="motion-detector"
+                            alt="lineFollower"
                             height="140"
-                            image={motionDetector} />
+                            image={lineFollower} />
                             <CardContent>
                                 <Typography gutterBottom variant="h5">
-                                    Motion_Detector_openCV
+                                    Line Follower Bot
                                 </Typography>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    This project of detecting motion is done with openCV. 
+                                    This project of Line Follower Bot is done with Arduino, ir8array sensor, L298 motor driver. It follows black/white line.
                                 </Typography>
                             </CardContent>
                             </CardActionArea>
                             <CardActions>
                             <GitHubIcon />
-                                <Link href="https://github.com/piyush-cosmo/motion_detector_using_openCV">
+                                <Link href="https://github.com/piyush-cosmo/RACLOF">
                                     Github
                                 </Link>
                                 <Button size="small" color="primary">
@@ -221,21 +225,21 @@ const Projects = () => {
                     <CardActionArea>
                         <CardMedia
                             component="img"
-                            alt="motion-detector"
+                            alt="tetris"
                             height="140"
-                            image={motionDetector} />
+                            image={tetris} />
                             <CardContent>
                                 <Typography gutterBottom variant="h5">
-                                    Motion_Detector_openCV
+                                    Tetris
                                 </Typography>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    This project of detecting motion is done with openCV. 
+                                    This is a basic Tetris game.
                                 </Typography>
                             </CardContent>
                             </CardActionArea>
                             <CardActions>
                             <GitHubIcon />
-                                <Link href="https://github.com/piyush-cosmo/motion_detector_using_openCV">
+                                <Link href="https://github.com/piyush-cosmo/TETRIS">
                                     Github
                                 </Link>
                                 <Button size="small" color="primary">
