@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/cosmo/static/css/main.087f3a64.chunk.css",
+    "main.js": "/cosmo/static/js/main.388c7d8e.chunk.js",
+    "main.js.map": "/cosmo/static/js/main.388c7d8e.chunk.js.map",
+    "runtime-main.js": "/cosmo/static/js/runtime-main.725e1f1a.js",
+    "runtime-main.js.map": "/cosmo/static/js/runtime-main.725e1f1a.js.map",
+    "static/js/2.eb24f03a.chunk.js": "/cosmo/static/js/2.eb24f03a.chunk.js",
+    "static/js/2.eb24f03a.chunk.js.map": "/cosmo/static/js/2.eb24f03a.chunk.js.map",
+    "index.html": "/cosmo/index.html",
+    "precache-manifest.dac45bcc1c9f6e38f71ffbee88bd8aa2.js": "/cosmo/precache-manifest.dac45bcc1c9f6e38f71ffbee88bd8aa2.js",
+    "service-worker.js": "/cosmo/service-worker.js",
+    "static/css/main.087f3a64.chunk.css.map": "/cosmo/static/css/main.087f3a64.chunk.css.map",
+    "static/js/2.eb24f03a.chunk.js.LICENSE.txt": "/cosmo/static/js/2.eb24f03a.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/cosmo/static/media/coffee-apple.2dd213aa.jpg",
+    "static/media/edge-detector.png": "/cosmo/static/media/edge-detector.c6fdfc18.png",
+    "static/media/face-detector.png": "/cosmo/static/media/face-detector.f0db4640.png",
+    "static/media/motion.png": "/cosmo/static/media/motion.cc66ad7e.png",
+    "static/media/piyush.jpg": "/cosmo/static/media/piyush.8da0aa5d.jpg",
+    "static/media/portfolio.png": "/cosmo/static/media/portfolio.b2ff2899.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.725e1f1a.js",
+    "static/js/2.eb24f03a.chunk.js",
+    "static/css/main.087f3a64.chunk.css",
+    "static/js/main.388c7d8e.chunk.js"
+  ]
+}
