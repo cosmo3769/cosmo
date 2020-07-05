@@ -32,7 +32,7 @@ import avatar from '../piyush.jpg';
 //CSS STYLES
 const useStyles = makeStyles(theme => ({
     menuSliderContainer: {
-        width: 400,
+        width: "auto",
         background: "#222",
         height: "100%"
     },
@@ -134,7 +134,7 @@ const Navbar = () => {
                         open={state.right}
                         onClose={toggleSlider("right", false)}>
                             {sideList("right")}
-                            <Footer/>
+                            <Footer />
                         </MobileRightMenySlider>
                     </Toolbar>
                 </AppBar>

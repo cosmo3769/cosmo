@@ -8,6 +8,7 @@ import {
  } from '@material-ui/core';
 import Typed from "react-typed";
 import avatar from "../piyush.jpg";
+import Footer from "./Footer";
 
 //Css 
 const useStyles = makeStyles(theme => ({
@@ -50,6 +51,7 @@ const Header = () => {
             backSpeed={60}
             loop />
         </Typography>
+        
         </Box>
     );
 };

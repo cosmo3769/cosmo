@@ -59,13 +59,13 @@ const Footer = () => {
                 icon={<FacebookIcon/>}
                 />
                 </Link>
-                <Link href="https://www.instagram.com/cosmo_3769/?hl=en">
+                {/* <Link href="https://www.instagram.com/cosmo_3769/?hl=en">
                 <BottomNavigationAction
                 className={classes.root}
                 style={{padding: 0}}
                 icon={<InstagramIcon/>}
                 />
-                </Link>
+                </Link> */}
         </BottomNavigation>
     )
 }
