@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3cd3949fb1f2c775213920bdd7c0800a",
+    "revision": "d050de61ca023d8bab34858be77df932",
     "url": "/cosmo/index.html"
   },
   {
-    "revision": "1576685c92d6a46478de",
+    "revision": "7303d2129b06e13ff5db",
     "url": "/cosmo/static/css/main.6099f1c6.chunk.css"
   },
   {
-    "revision": "8b58dace08f4f9e5f9b0",
-    "url": "/cosmo/static/js/2.73af27c3.chunk.js"
+    "revision": "973acf14da39d33524c0",
+    "url": "/cosmo/static/js/2.4481517b.chunk.js"
   },
   {
     "revision": "84f48c9a090ba2f8cc4a11e48dd3dad0",
-    "url": "/cosmo/static/js/2.73af27c3.chunk.js.LICENSE.txt"
+    "url": "/cosmo/static/js/2.4481517b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1576685c92d6a46478de",
-    "url": "/cosmo/static/js/main.94f488ac.chunk.js"
+    "revision": "7303d2129b06e13ff5db",
+    "url": "/cosmo/static/js/main.73ba2956.chunk.js"
   },
   {
     "revision": "fad78e0d3748eeea640a",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2dd213aa54b22c3bca0c62f570d1512a",
     "url": "/cosmo/static/media/coffee-apple.2dd213aa.jpg"
+  },
+  {
+    "revision": "bd7ed7fab174013106fe9d4f6711d7c8",
+    "url": "/cosmo/static/media/cv.bd7ed7fa.pdf"
   },
   {
     "revision": "c6fdfc1817fc7bb022dfd1a6a1013de5",
@@ -58,5 +62,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "df1b4d2c9bb97c4a5a5af19e2c3bba81",
     "url": "/cosmo/static/media/tetris.df1b4d2c.jpg"
+  },
+  {
+    "revision": "b3928f23104bc5a9d150ea20125bb9b5",
+    "url": "/cosmo/static/media/twitterClone.b3928f23.jpg"
   }
 ]);

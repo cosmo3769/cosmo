@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/cosmo/static/css/main.6099f1c6.chunk.css",
-    "main.js": "/cosmo/static/js/main.94f488ac.chunk.js",
-    "main.js.map": "/cosmo/static/js/main.94f488ac.chunk.js.map",
+    "main.js": "/cosmo/static/js/main.73ba2956.chunk.js",
+    "main.js.map": "/cosmo/static/js/main.73ba2956.chunk.js.map",
     "runtime-main.js": "/cosmo/static/js/runtime-main.725e1f1a.js",
     "runtime-main.js.map": "/cosmo/static/js/runtime-main.725e1f1a.js.map",
-    "static/js/2.73af27c3.chunk.js": "/cosmo/static/js/2.73af27c3.chunk.js",
-    "static/js/2.73af27c3.chunk.js.map": "/cosmo/static/js/2.73af27c3.chunk.js.map",
+    "static/js/2.4481517b.chunk.js": "/cosmo/static/js/2.4481517b.chunk.js",
+    "static/js/2.4481517b.chunk.js.map": "/cosmo/static/js/2.4481517b.chunk.js.map",
     "index.html": "/cosmo/index.html",
-    "precache-manifest.f159d06858c4081fae43b696f258a69d.js": "/cosmo/precache-manifest.f159d06858c4081fae43b696f258a69d.js",
+    "precache-manifest.4642b40cddc73e850e16cff3b4767ffd.js": "/cosmo/precache-manifest.4642b40cddc73e850e16cff3b4767ffd.js",
     "service-worker.js": "/cosmo/service-worker.js",
     "static/css/main.6099f1c6.chunk.css.map": "/cosmo/static/css/main.6099f1c6.chunk.css.map",
-    "static/js/2.73af27c3.chunk.js.LICENSE.txt": "/cosmo/static/js/2.73af27c3.chunk.js.LICENSE.txt",
+    "static/js/2.4481517b.chunk.js.LICENSE.txt": "/cosmo/static/js/2.4481517b.chunk.js.LICENSE.txt",
     "static/media/App.css": "/cosmo/static/media/coffee-apple.2dd213aa.jpg",
+    "static/media/cv.pdf": "/cosmo/static/media/cv.bd7ed7fa.pdf",
     "static/media/edge-detector.png": "/cosmo/static/media/edge-detector.c6fdfc18.png",
     "static/media/face-detector.png": "/cosmo/static/media/face-detector.f0db4640.png",
     "static/media/lineFollower.png": "/cosmo/static/media/lineFollower.8f9606d7.png",
@@ -20,12 +21,13 @@
     "static/media/piyush.jpg": "/cosmo/static/media/piyush.8da0aa5d.jpg",
     "static/media/portfolio.png": "/cosmo/static/media/portfolio.b2ff2899.png",
     "static/media/recogniser.png": "/cosmo/static/media/recogniser.c3e90281.png",
-    "static/media/tetris.jpg": "/cosmo/static/media/tetris.df1b4d2c.jpg"
+    "static/media/tetris.jpg": "/cosmo/static/media/tetris.df1b4d2c.jpg",
+    "static/media/twitterClone.jpg": "/cosmo/static/media/twitterClone.b3928f23.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.725e1f1a.js",
-    "static/js/2.73af27c3.chunk.js",
+    "static/js/2.4481517b.chunk.js",
     "static/css/main.6099f1c6.chunk.css",
-    "static/js/main.94f488ac.chunk.js"
+    "static/js/main.73ba2956.chunk.js"
   ]
 }
