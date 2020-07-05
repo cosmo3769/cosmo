@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import MobileRightMenySlider from '@material-ui/core/Drawer';
 import Footer from "./Footer";
+import Pdf from '../images/cv.pdf';
 import { 
     AppBar,
     Toolbar,
@@ -21,16 +22,18 @@ import {
      AssignmentInd,
      Home,
      Apps,
+     Book,
      ContactMail
   } from '@material-ui/icons';
 import MenuIcon from '@material-ui/icons/Menu';
+import AssignmentIndIcon from '@material-ui/icons/AssignmentInd';
 import avatar from '../piyush.jpg';
 
 //CSS STYLES
 const useStyles = makeStyles(theme => ({
     menuSliderContainer: {
-        width: 250,
-        background: "#511",
+        width: 400,
+        background: "#222",
         height: "100%"
     },
     avatar: {
@@ -41,6 +44,16 @@ const useStyles = makeStyles(theme => ({
     },
     listItem: {
         color: "tan"
+    },
+    resumeIcon: {
+        marginLeft: 17,
+        marginTop: 10 
+    },
+    resumeText: {
+        marginLeft: 30,
+        marginBottom: 30,
+        textDecoration: "none",
+        color: "tan"
     }
 }));
 
@@ -50,21 +63,26 @@ const menuItems = [
         listText: "Home",
         listPath: "/"
     },
-    {
-        listIcon: <AssignmentInd/>,
-        listText: "Resume",
-        listPath: "/resume"
-    },
+    // {
+    //     listIcon: <AssignmentInd/>,
+    //     listText: "Resume",
+    //     listPath: "/resume"
+    // },
     {
         listIcon: <Apps/>,
         listText: "projects",
         listPath: "/projects"
     },
     {
-        listIcon: <ContactMail/>,
-        listText: "Contacts",
-        listPath: "/contacts"
+        listIcon: <Book />,
+        listText: "Blog",
+        listPath: "/blogs"
     }
+    // {
+    //     listIcon: <ContactMail/>,
+    //     listText: "Contacts",
+    //     listPath: "/contacts"
+    // }
 ]
 
 const Navbar = () => {
@@ -93,6 +111,10 @@ const Navbar = () => {
                         <ListItemText className={classes.listItem} primary={ lsItem.listText } />
                         </ListItem>
                     ))}
+                    <AssignmentIndIcon className={classes.resumeIcon} style={{color: "tan"}} />
+                    <a href={Pdf} className={classes.resumeText}>
+                        Resume
+                    </a>
                 </List>
             </Box>
         )
@@ -102,7 +124,7 @@ const Navbar = () => {
                 <AppBar position="static" style={{background: "#222"}}>
                     <Toolbar>
                         <IconButton onClick={toggleSlider("right", true)}>
-                          <MenuIcon style={{color: "tomato"}} />
+                          <MenuIcon style={{color: "white"}} />
                         </IconButton>
                         <Typography variant="h5" style={{color:"tan"}}>
                             cosmo

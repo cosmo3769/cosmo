@@ -6,7 +6,7 @@ import {
     Grid,
     Box
  } from '@material-ui/core';
- import Typed from "react-typed";
+import Typed from "react-typed";
 import avatar from "../piyush.jpg";
 
 //Css 
@@ -17,7 +17,7 @@ const useStyles = makeStyles(theme => ({
         margin: theme.spacing(1)
     },
     title: {
-        color: "tomato"
+        color: "tan"
     },
     subtitle: {
         color: "tan",

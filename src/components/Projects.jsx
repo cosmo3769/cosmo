@@ -22,6 +22,7 @@ import edgeDetector from "../images/edge-detector.png";
 import flaskDlApp from "../images/recogniser.png";
 import lineFollower from "../images/lineFollower.png";
 import tetris from "../images/tetris.jpg";
+import TwitterClone from "../images/twitterClone.jpg";
 
 import GitHubIcon from '@material-ui/icons/GitHub';
 import PlayCircleFilledIcon from '@material-ui/icons/PlayCircleFilled';
@@ -67,7 +68,7 @@ const Projects = () => {
                                     Github
                                 </Link>
                                 <PlayCircleFilledIcon />
-                                <Link href="https://github.com/piyush-cosmo/cosmo">
+                                <Link href="https://piyush-cosmo.github.io/cosmo/#/">
                                     Live
                                 </Link>
                             </CardActions>
@@ -96,9 +97,9 @@ const Projects = () => {
                                 <Link href="https://github.com/piyush-cosmo/motion_detector_using_openCV">
                                     Github
                                 </Link>
-                                <Button size="small" color="primary">
+                                {/* <Button size="small" color="primary">
                                     Livedemo
-                                </Button>
+                                </Button> */}
                             </CardActions>
                 </Card>
                 </Grid>
@@ -125,9 +126,9 @@ const Projects = () => {
                                 <Link href="https://github.com/piyush-cosmo/face_recognition_opencv_cascade">
                                     Github
                                 </Link>
-                                <Button size="small" color="primary">
+                                {/* <Button size="small" color="primary">
                                     Livedemo
-                                </Button>
+                                </Button> */}
                             </CardActions>
                 </Card>
                 </Grid>
@@ -154,9 +155,9 @@ const Projects = () => {
                                 <Link href="https://github.com/piyush-cosmo/canny_edge_detection_openCV">
                                     Github
                                 </Link>
-                                <Button size="small" color="primary">
+                                {/* <Button size="small" color="primary">
                                     Livedemo
-                                </Button>
+                                </Button> */}
                             </CardActions>
                 </Card>
                 </Grid>
@@ -184,9 +185,9 @@ const Projects = () => {
                                 <Link href="https://github.com/piyush-cosmo/DL_FLASK_WEB_APP">
                                     Github
                                 </Link>
-                                <Button size="small" color="primary">
+                                {/* <Button size="small" color="primary">
                                     Livedemo
-                                </Button>
+                                </Button> */}
                             </CardActions>
                 </Card>
                 </Grid>
@@ -213,9 +214,9 @@ const Projects = () => {
                                 <Link href="https://github.com/piyush-cosmo/RACLOF">
                                     Github
                                 </Link>
-                                <Button size="small" color="primary">
+                                {/* <Button size="small" color="primary">
                                     Livedemo
-                                </Button>
+                                </Button> */}
                             </CardActions>
                 </Card>
                 </Grid>
@@ -242,9 +243,38 @@ const Projects = () => {
                                 <Link href="https://github.com/piyush-cosmo/TETRIS">
                                     Github
                                 </Link>
-                                <Button size="small" color="primary">
+                                {/* <Button size="small" color="primary">
                                     Livedemo
-                                </Button>
+                                </Button> */}
+                            </CardActions>
+                </Card>
+                </Grid>
+                {/*twitter-clone*/}
+                <Grid item x5={12} sm={8} md={6}>
+                <Card className={classes.cardContainer}>
+                    <CardActionArea>
+                        <CardMedia
+                            component="img"
+                            alt="twitter-clone"
+                            height="140"
+                            image={TwitterClone} />
+                            <CardContent>
+                                <Typography gutterBottom variant="h5">
+                                    Twitter Clone
+                                </Typography>
+                                <Typography variant="body2" color="textSecondary" component="p">
+                                    This is a Twitter clone build with FERN stack.
+                                </Typography>
+                            </CardContent>
+                            </CardActionArea>
+                            <CardActions>
+                            <GitHubIcon />
+                                <Link href="https://github.com/piyush-cosmo/firebase-practise">
+                                    Github
+                                </Link>
+                                {/* <Button size="small" color="primary">
+                                    Livedemo
+                                </Button> */}
                             </CardActions>
                 </Card>
                 </Grid>
