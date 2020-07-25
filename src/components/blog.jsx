@@ -1,17 +1,17 @@
-import React from 'react';
+// import React from 'react';
 
-import {
-    Typography,
-    Box
-} from '@material-ui/core';
-import Navbar from "./Navbar";
+// import {
+//     Typography,
+//     Box
+// } from '@material-ui/core';
+// import Navbar from "./Navbar";
 
-const Blog = () => {
-    return (
-        <>
-        <Navbar/>
-        </>
-    )
-}
+// const Blog = () => {
+//     return (
+//         <>
+//         <Navbar/>
+//         </>
+//     )
+// }
 
-export default Blog;
+// export default Blog;

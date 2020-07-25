@@ -16,6 +16,7 @@ import {mergeClasses} from '@material-ui/styles';
 import Navbar from "./Navbar";
 
 import portfolio from "../images/portfolio.png";
+import blog from "../images/blog.jpeg";
 import motionDetector from "../images/motion.png";
 import faceDetector from "../images/face-detector.png";
 import edgeDetector from "../images/edge-detector.png";
@@ -69,6 +70,36 @@ const Projects = () => {
                                 </Link>
                                 <PlayCircleFilledIcon />
                                 <Link href="https://piyush-cosmo.github.io/cosmo/#/">
+                                    Live
+                                </Link>
+                            </CardActions>
+                </Card>
+                </Grid>
+                {/*blog*/}
+                <Grid item x5={12} sm={8} md={6}>
+                <Card className={classes.cardContainer}>
+                    <CardActionArea>
+                        <CardMedia
+                            component="img"
+                            alt="blog"
+                            height="140"
+                            image={blog} />
+                            <CardContent>
+                                <Typography gutterBottom variant="h5">
+                                    Blog
+                                </Typography>
+                                <Typography variant="body2" color="textSecondary" component="p">
+                                    This is blogging website where all the blogs will be found.
+                                </Typography>
+                            </CardContent>
+                            </CardActionArea>
+                            <CardActions>
+                                <GitHubIcon />
+                                <Link href="https://github.com/piyush-cosmo/Tech-A-WAY">
+                                    Github
+                                </Link>
+                                <PlayCircleFilledIcon />
+                                <Link href="https://tech-a-way.vercel.app/">
                                     Live
                                 </Link>
                             </CardActions>

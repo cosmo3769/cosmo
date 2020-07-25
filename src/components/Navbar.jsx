@@ -54,6 +54,16 @@ const useStyles = makeStyles(theme => ({
         marginBottom: 30,
         textDecoration: "none",
         color: "tan"
+    },
+    bookIcon: {
+        marginLeft: 17,
+        marginTop: 10 
+    },
+    bookText: {
+        marginLeft: 30,
+        marginBottom: 30,
+        textDecoration: "none",
+        color: "tan"
     }
 }));
 
@@ -72,12 +82,12 @@ const menuItems = [
         listIcon: <Apps/>,
         listText: "projects",
         listPath: "/projects"
-    },
-    {
-        listIcon: <Book />,
-        listText: "Blog",
-        listPath: "/blogs"
     }
+    // {
+    //     listIcon: <Book />,
+    //     listText: "Blog",
+    //     listPath: "/blogs"
+    // }
     // {
     //     listIcon: <ContactMail/>,
     //     listText: "Contacts",
@@ -111,6 +121,11 @@ const Navbar = () => {
                         <ListItemText className={classes.listItem} primary={ lsItem.listText } />
                         </ListItem>
                     ))}
+                    <Book className={classes.bookIcon} style={{color: "tan"}} />
+                    <a href="https://tech-a-way.vercel.app/" className={classes.bookText}>
+                        Blog
+                    </a>
+                    <br/>
                     <AssignmentIndIcon className={classes.resumeIcon} style={{color: "tan"}} />
                     <a href={Pdf} className={classes.resumeText}>
                         Resume
