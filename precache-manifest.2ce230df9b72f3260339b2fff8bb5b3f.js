@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cef884f66b5c81fcab33b8ac19d261b8",
+    "revision": "78d631b204811819c3846c1b13cc7738",
     "url": "/cosmo/index.html"
   },
   {
-    "revision": "4a654e07fb222f6cb8c7",
+    "revision": "a0702bc6c6bcdab88298",
     "url": "/cosmo/static/css/main.6099f1c6.chunk.css"
   },
   {
-    "revision": "4402f6e97c88d1ffd59d",
-    "url": "/cosmo/static/js/2.79dd52e3.chunk.js"
+    "revision": "eb517604251bf2458cf1",
+    "url": "/cosmo/static/js/2.45ab4d4f.chunk.js"
   },
   {
     "revision": "84f48c9a090ba2f8cc4a11e48dd3dad0",
-    "url": "/cosmo/static/js/2.79dd52e3.chunk.js.LICENSE.txt"
+    "url": "/cosmo/static/js/2.45ab4d4f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4a654e07fb222f6cb8c7",
-    "url": "/cosmo/static/js/main.fb424149.chunk.js"
+    "revision": "a0702bc6c6bcdab88298",
+    "url": "/cosmo/static/js/main.ae620860.chunk.js"
   },
   {
     "revision": "fad78e0d3748eeea640a",
     "url": "/cosmo/static/js/runtime-main.725e1f1a.js"
+  },
+  {
+    "revision": "5a2e71b4a1b2625c79c3951ae4a8f764",
+    "url": "/cosmo/static/media/blog.5a2e71b4.jpeg"
   },
   {
     "revision": "2dd213aa54b22c3bca0c62f570d1512a",
