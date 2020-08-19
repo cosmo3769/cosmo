@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8e5fcfcbacc4ba572a731cb94c92ccea",
+    "revision": "279c1d97dcd1b45ece80ca5f2f82b6fb",
     "url": "/cosmo/index.html"
   },
   {
-    "revision": "bbd0b049ea9e7041c4d1",
+    "revision": "9b68b8db757668d68fd8",
     "url": "/cosmo/static/css/main.6099f1c6.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cosmo/static/js/2.eb8ddc2d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bbd0b049ea9e7041c4d1",
-    "url": "/cosmo/static/js/main.8afeeccf.chunk.js"
+    "revision": "9b68b8db757668d68fd8",
+    "url": "/cosmo/static/js/main.d2f86e59.chunk.js"
   },
   {
     "revision": "fad78e0d3748eeea640a",
