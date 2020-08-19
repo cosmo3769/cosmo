@@ -6,7 +6,6 @@ import EmailIcon from '@material-ui/icons/Email';
 import GitHub from '@material-ui/icons/GitHub';
 import LinkedIn from '@material-ui/icons/LinkedIn';
 import FacebookIcon from '@material-ui/icons/Facebook';
-import InstagramIcon from '@material-ui/icons/Instagram';
 
 const useStyles = makeStyles({
     root: {

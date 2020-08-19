@@ -18,12 +18,9 @@ import {
     Box
  } from '@material-ui/core';
  import { 
-     ArrowBack,
-     AssignmentInd,
      Home,
      Apps,
-     Book,
-     ContactMail
+     Book
   } from '@material-ui/icons';
 import MenuIcon from '@material-ui/icons/Menu';
 import AssignmentIndIcon from '@material-ui/icons/AssignmentInd';
@@ -62,6 +59,12 @@ const useStyles = makeStyles(theme => ({
     bookText: {
         marginLeft: 30,
         marginBottom: 30,
+        textDecoration: "none",
+        color: "tan"
+    },
+    cosmoText: {
+        marginRight: 20,
+        
         textDecoration: "none",
         color: "tan"
     }
@@ -142,7 +145,7 @@ const Navbar = () => {
                           <MenuIcon style={{color: "white"}} />
                         </IconButton>
                         <Typography variant="h5" style={{color:"tan"}}>
-                            cosmo
+                            <a href="/" className={classes.bookText}>cosmo</a>
                         </Typography>
                         <MobileRightMenySlider 
                         anchor="right" 

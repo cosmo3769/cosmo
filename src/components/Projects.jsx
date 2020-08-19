@@ -9,13 +9,11 @@ import {
     CardActions,
     CardContent,
     CardMedia,
-    Button,
     Typography
 } from "@material-ui/core";
 import {mergeClasses} from '@material-ui/styles';
 import Navbar from "./Navbar";
 
-import portfolio from "../images/portfolio.png";
 import blog from "../images/blog.jpeg";
 import motionDetector from "../images/motion.png";
 import faceDetector from "../images/face-detector.png";
@@ -24,6 +22,8 @@ import flaskDlApp from "../images/recogniser.png";
 import lineFollower from "../images/lineFollower.png";
 import tetris from "../images/tetris.jpg";
 import TwitterClone from "../images/twitterClone.jpg";
+import LockScreen from "../images/lockscreen.png";
+import ImgClassifyBrowser from "../images/img-classify-browser.png";
 
 import GitHubIcon from '@material-ui/icons/GitHub';
 import PlayCircleFilledIcon from '@material-ui/icons/PlayCircleFilled';
@@ -45,63 +45,120 @@ const Projects = () => {
         <Box component="div" className={mergeClasses.mainContainer}>
             <Navbar />
             <Grid container justify="center">
-                {/*portfolio*/}
+                {/*line follower*/}
                 <Grid item x5={12} sm={8} md={6}>
                 <Card className={classes.cardContainer}>
                     <CardActionArea>
                         <CardMedia
                             component="img"
-                            alt="portfolio"
+                            alt="lineFollower"
                             height="140"
-                            image={portfolio} />
+                            image={lineFollower} />
                             <CardContent>
                                 <Typography gutterBottom variant="h5">
-                                    Portfolio
+                                    Line Follower Bot
                                 </Typography>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    This is my portfolio where my skills are illustrated.
+                                    This project of Line Follower Bot is done with Arduino, ir8array sensor, L298 motor driver. It follows black/white line.
                                 </Typography>
                             </CardContent>
                             </CardActionArea>
                             <CardActions>
-                                <GitHubIcon />
-                                <Link href="https://github.com/piyush-cosmo/cosmo">
+                            <GitHubIcon />
+                                <Link href="https://github.com/piyush-cosmo/RACLOF">
                                     Github
                                 </Link>
-                                <PlayCircleFilledIcon />
-                                <Link href="https://piyush-cosmo.github.io/cosmo/#/">
-                                    Live
-                                </Link>
+                                {/* <Button size="small" color="primary">
+                                    Livedemo
+                                </Button> */}
                             </CardActions>
                 </Card>
                 </Grid>
-                {/*blog*/}
+                {/*hanwritten-digit-recogniser-app*/}
                 <Grid item x5={12} sm={8} md={6}>
                 <Card className={classes.cardContainer}>
                     <CardActionArea>
                         <CardMedia
                             component="img"
-                            alt="blog"
+                            alt="HandWrittenDigitRecogniser"
                             height="140"
-                            image={blog} />
+                            image={flaskDlApp} />
                             <CardContent>
                                 <Typography gutterBottom variant="h5">
-                                    Blog
+                                    HandWrittenDigitRecogniser app
                                 </Typography>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    This is blogging website where all the blogs will be found.
+                                    This project of detecting handwritten digits is done with deep learning and flask. Deep learning was used to train 
+                                    on MNIST dataset and Flask was used to get the api to render on browser.
                                 </Typography>
                             </CardContent>
                             </CardActionArea>
                             <CardActions>
-                                <GitHubIcon />
-                                <Link href="https://github.com/piyush-cosmo/Tech-A-WAY">
+                            <GitHubIcon />
+                                <Link href="https://github.com/piyush-cosmo/DL_FLASK_WEB_APP">
                                     Github
                                 </Link>
-                                <PlayCircleFilledIcon />
-                                <Link href="https://tech-a-way.vercel.app/">
-                                    Live
+                                {/* <Button size="small" color="primary">
+                                    Livedemo
+                                </Button> */}
+                            </CardActions>
+                </Card>
+                </Grid>
+                {/*image-classification on browser*/}
+                <Grid item x5={12} sm={8} md={6}>
+                <Card className={classes.cardContainer}>
+                    <CardActionArea>
+                        <CardMedia
+                            component="img"
+                            alt="image-classification on browser"
+                            height="140"
+                            image={ImgClassifyBrowser} />
+                            <CardContent>
+                                <Typography gutterBottom variant="h5">
+                                    Image Classification On Browser
+                                </Typography>
+                                <Typography variant="body2" color="textSecondary" component="p">
+                                    This project was to classify the images using ML techniques and to be used on a client side.
+                                </Typography>
+                            </CardContent>
+                            </CardActionArea>
+                            <CardActions>
+                            <GitHubIcon />
+                                <Link href="https://github.com/piyush-cosmo/mobileNet_node_Browser">
+                                    Github
                                 </Link>
+                                {/* <Button size="small" color="primary">
+                                    Livedemo
+                                </Button> */}
+                            </CardActions>
+                </Card>
+                </Grid>
+                {/*Lock Laptop Screen*/}
+                <Grid item x5={12} sm={8} md={6}>
+                <Card className={classes.cardContainer}>
+                    <CardActionArea>
+                        <CardMedia
+                            component="img"
+                            alt="Lock Laptop Screen"
+                            height="140"
+                            image={LockScreen} />
+                            <CardContent>
+                                <Typography gutterBottom variant="h5">
+                                    Lock Laptop Screen
+                                </Typography>
+                                <Typography variant="body2" color="textSecondary" component="p">
+                                    This project is to lock Laptop screen using openCV and DL techniques. 
+                                </Typography>
+                            </CardContent>
+                            </CardActionArea>
+                            <CardActions>
+                            <GitHubIcon />
+                                <Link href="https://github.com/piyush-cosmo/lock_unlock_laptop_face_recognition">
+                                    Github
+                                </Link>
+                                {/* <Button size="small" color="primary">
+                                    Livedemo
+                                </Button> */}
                             </CardActions>
                 </Card>
                 </Grid>
@@ -192,57 +249,57 @@ const Projects = () => {
                             </CardActions>
                 </Card>
                 </Grid>
-                {/*hanwritten-digit-recogniser-app*/}
+                {/*blog*/}
                 <Grid item x5={12} sm={8} md={6}>
                 <Card className={classes.cardContainer}>
                     <CardActionArea>
                         <CardMedia
                             component="img"
-                            alt="HandWrittenDigitRecogniser"
+                            alt="blog"
                             height="140"
-                            image={flaskDlApp} />
+                            image={blog} />
                             <CardContent>
                                 <Typography gutterBottom variant="h5">
-                                    HandWrittenDigitRecogniser app
+                                    Blog
                                 </Typography>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    This project of detecting handwritten digits is done with deep learning and flask. Deep learning was used to train 
-                                    on MNIST dataset and Flask was used to get the api to render on browser.
+                                    This is blogging website where all the blogs will be found.
                                 </Typography>
                             </CardContent>
                             </CardActionArea>
                             <CardActions>
-                            <GitHubIcon />
-                                <Link href="https://github.com/piyush-cosmo/DL_FLASK_WEB_APP">
+                                <GitHubIcon />
+                                <Link href="https://github.com/piyush-cosmo/Tech-A-WAY">
                                     Github
                                 </Link>
-                                {/* <Button size="small" color="primary">
-                                    Livedemo
-                                </Button> */}
+                                <PlayCircleFilledIcon />
+                                <Link href="https://tech-a-way.vercel.app/">
+                                    Live
+                                </Link>
                             </CardActions>
                 </Card>
                 </Grid>
-                {/*line follower*/}
+                {/*twitter-clone*/}
                 <Grid item x5={12} sm={8} md={6}>
                 <Card className={classes.cardContainer}>
                     <CardActionArea>
                         <CardMedia
                             component="img"
-                            alt="lineFollower"
+                            alt="twitter-clone"
                             height="140"
-                            image={lineFollower} />
+                            image={TwitterClone} />
                             <CardContent>
                                 <Typography gutterBottom variant="h5">
-                                    Line Follower Bot
+                                    Twitter Clone
                                 </Typography>
                                 <Typography variant="body2" color="textSecondary" component="p">
-                                    This project of Line Follower Bot is done with Arduino, ir8array sensor, L298 motor driver. It follows black/white line.
+                                    This is a Twitter clone build with FERN stack.
                                 </Typography>
                             </CardContent>
                             </CardActionArea>
                             <CardActions>
                             <GitHubIcon />
-                                <Link href="https://github.com/piyush-cosmo/RACLOF">
+                                <Link href="https://github.com/piyush-cosmo/firebase-practise">
                                     Github
                                 </Link>
                                 {/* <Button size="small" color="primary">
@@ -272,35 +329,6 @@ const Projects = () => {
                             <CardActions>
                             <GitHubIcon />
                                 <Link href="https://github.com/piyush-cosmo/TETRIS">
-                                    Github
-                                </Link>
-                                {/* <Button size="small" color="primary">
-                                    Livedemo
-                                </Button> */}
-                            </CardActions>
-                </Card>
-                </Grid>
-                {/*twitter-clone*/}
-                <Grid item x5={12} sm={8} md={6}>
-                <Card className={classes.cardContainer}>
-                    <CardActionArea>
-                        <CardMedia
-                            component="img"
-                            alt="twitter-clone"
-                            height="140"
-                            image={TwitterClone} />
-                            <CardContent>
-                                <Typography gutterBottom variant="h5">
-                                    Twitter Clone
-                                </Typography>
-                                <Typography variant="body2" color="textSecondary" component="p">
-                                    This is a Twitter clone build with FERN stack.
-                                </Typography>
-                            </CardContent>
-                            </CardActionArea>
-                            <CardActions>
-                            <GitHubIcon />
-                                <Link href="https://github.com/piyush-cosmo/firebase-practise">
                                     Github
                                 </Link>
                                 {/* <Button size="small" color="primary">

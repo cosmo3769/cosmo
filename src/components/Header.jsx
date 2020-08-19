@@ -8,7 +8,6 @@ import {
  } from '@material-ui/core';
 import Typed from "react-typed";
 import avatar from "../piyush.jpg";
-import Footer from "./Footer";
 
 //Css 
 const useStyles = makeStyles(theme => ({
@@ -46,7 +45,7 @@ const Header = () => {
             </Typography>
             <br/>
             <Typography className={classes.subtitle} variant="h5">
-            <Typed strings={["Robotics","Arduino","Web Development","MERN Stack","Machine Learning"]} 
+            <Typed strings={["Robotics","ML | DL","Full Stack Developer"]} 
             typeSpeed={40}
             backSpeed={60}
             loop />
