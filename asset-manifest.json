@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/cosmo/static/css/main.6099f1c6.chunk.css",
-    "main.js": "/cosmo/static/js/main.d2f86e59.chunk.js",
-    "main.js.map": "/cosmo/static/js/main.d2f86e59.chunk.js.map",
+    "main.js": "/cosmo/static/js/main.b01703ab.chunk.js",
+    "main.js.map": "/cosmo/static/js/main.b01703ab.chunk.js.map",
     "runtime-main.js": "/cosmo/static/js/runtime-main.725e1f1a.js",
     "runtime-main.js.map": "/cosmo/static/js/runtime-main.725e1f1a.js.map",
     "static/js/2.eb8ddc2d.chunk.js": "/cosmo/static/js/2.eb8ddc2d.chunk.js",
     "static/js/2.eb8ddc2d.chunk.js.map": "/cosmo/static/js/2.eb8ddc2d.chunk.js.map",
     "index.html": "/cosmo/index.html",
-    "precache-manifest.07c7dbcf371c5c16dd252da88f79b326.js": "/cosmo/precache-manifest.07c7dbcf371c5c16dd252da88f79b326.js",
+    "precache-manifest.b40fac30a69820e928befe433b3d92a5.js": "/cosmo/precache-manifest.b40fac30a69820e928befe433b3d92a5.js",
     "service-worker.js": "/cosmo/service-worker.js",
     "static/css/main.6099f1c6.chunk.css.map": "/cosmo/static/css/main.6099f1c6.chunk.css.map",
     "static/js/2.eb8ddc2d.chunk.js.LICENSE.txt": "/cosmo/static/js/2.eb8ddc2d.chunk.js.LICENSE.txt",
@@ -30,6 +30,6 @@
     "static/js/runtime-main.725e1f1a.js",
     "static/js/2.eb8ddc2d.chunk.js",
     "static/css/main.6099f1c6.chunk.css",
-    "static/js/main.d2f86e59.chunk.js"
+    "static/js/main.b01703ab.chunk.js"
   ]
 }
